@@ -1,0 +1,29 @@
+The algorithm of the control system of a production line :
+A basic algorithm of controlling a production line in industries.
+
+#The technique used:
+using sensors and servo motors connected with the microcontroller to control the movement of the boxes in  the production line.
+
+
+
+
+#How does this technique work ?
+In each system are set,the sensors measure the tall of the boxes .according to the measurement ,
+the sensors should send an input signal to the microcontroller. 
+In the microcontroller we should dettermine the set values .
+For example ,When the tall of the box  using the sinsor is between 200-150 cm that means the box is small 
+so we shoould put the set value in the case to be 135 angle to send a singal from the micrcontroller 
+to the servo motors to rotate and direct the boxes to the disered postion .
+
+
+Note : setting the values and comparing them with the measured values are done in the microcontroller using some program languages. 
+
+
+#What are the steps of this technique ?
+1- Firstly ,the ultrasonic sensors read the distance (the tall of the boxes).
+2-The readings (signals) are sent to the microcontrollers .
+3-the microcontrollers compare the distances (measured values) with the set values( ture values).
+4- According to the comparison between the set and measured values, the microcontroller makes a decision to directe the boxes to which direction .
+5- The microcontroller sends an output signal (decision) to the servo motors. 
+6- Finally, the servo motors are acctivated to take the  boxes to the desired deriction.
+
